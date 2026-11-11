@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="三轴运动轨迹与伺服跟随误差示意图">
+  <defs>
+    <pattern id="g1" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="rgba(150,220,255,.09)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="pathGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#96dcff"/><stop offset="1" stop-color="#8fe3c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="#081c21"/>
+  <rect width="600" height="380" fill="url(#g1)"/>
+  <g stroke="rgba(190,225,235,.3)" stroke-width="1">
+    <path d="M60 300V60M60 300h480" fill="none"/>
+    <path d="M60 60h6M60 300h-6M540 300v-6" fill="none"/>
+  </g>
+  <g fill="rgba(190,225,235,.5)" font-family="monospace" font-size="11">
+    <text x="46" y="52">Y</text><text x="546" y="316">X</text><text x="36" y="316">0</text>
+  </g>
+  <path d="M100 270 L215 270 Q300 270 300 185 L300 120 L420 120" fill="none" stroke="url(#pathGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M100 270 L215 270 Q300 270 300 185 L300 120 L420 120" fill="none" stroke="rgba(150,220,255,.18)" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#0b1e23" stroke="#96dcff" stroke-width="2">
+    <circle cx="100" cy="270" r="6"/><circle cx="215" cy="270" r="6"/><circle cx="300" cy="185" r="6"/><circle cx="300" cy="120" r="6"/><circle cx="420" cy="120" r="6"/>
+  </g>
+  <g fill="rgba(255,226,170,.9)" font-family="monospace" font-size="10" letter-spacing="1">
+    <text x="88" y="256">P0</text><text x="203" y="256">P1</text><text x="310" y="178">P2</text><text x="310" y="112">P3</text><text x="408" y="108">P4</text>
+  </g>
+  <g stroke="rgba(150,220,255,.45)" fill="none" stroke-width="1" stroke-dasharray="3 5">
+    <path d="M300 185h180M420 120v100"/>
+  </g>
+  <text x="440" y="228" fill="rgba(190,225,235,.6)" font-family="monospace" font-size="10">ARC / LINE INTERP</text>
+  <g transform="translate(352 268)">
+    <rect x="0" y="0" width="200" height="82" fill="rgba(4,20,26,.6)" stroke="rgba(150,220,255,.2)"/>
+    <path d="M10 62 C40 60 48 24 78 26 S120 50 150 30 S180 20 190 22" fill="none" stroke="#96dcff" stroke-width="1.6"/>
+    <path d="M10 66 C42 64 50 32 80 33 S122 55 152 36 S180 27 190 28" fill="none" stroke="#ffe2aa" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="10" y="14" fill="rgba(190,225,235,.55)" font-family="monospace" font-size="9">DPOS / MPOS FOLLOWING ERROR</text>
+  </g>
+</svg>

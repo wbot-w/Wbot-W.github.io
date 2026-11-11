@@ -1,28 +1,43 @@
-title: Sen Li's Homepage
-page-top-title: Sen Li
-top-section-bg-text: Data Science
+title: 韦昌宇 · 机器视觉与上位机开发 | 个人简历
+page-top-title: 韦昌宇
+hero-eyebrow: 韦昌宇 · 机器视觉 / 上位机开发 · 智能制造方向
+top-section-bg-text: 代码不止于跑通，
+hero-subline: 要能在产线上稳稳落地。
+hero-desc: 工业机器人技术专业，聚焦运动控制与机器视觉。把 C# 工程能力与 Halcon 视觉算法接在一起，解决定位、计数、引导这些产线上真实发生的问题。
 backgrounds:
-  - static/assets/background/background_0.jpeg
-  - static/assets/background/background_1.jpeg
+  - static/assets/background/hud.svg
 background-interval-ms: 7000
-background-overlay: 0.52
-copyright-text: '&copy; Sen Li 2023-2026. All Rights Reserved.'
+background-overlay: 0.12
+copyright-text: '&copy; 2026 韦昌宇 · WEI CHANGYU'
 github-link:
   text: Github
-  href: https://github.com/senli1073
+  href: https://github.com/wbot-w
 license-link:
   text: License
-  href: https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE
+  href: https://github.com/wbot-w/Wbot-W.github.io/blob/main/LICENSE
 sections:
   - id: home
-    nav: HOME
-    title: Sen Li
-    href: '#page-top' # Default to '#<id>' if not specified
+    nav: 关于我
+    title: 关于我
+    icon: bi-person-fill
+    href: '#home'
   - id: publications
-    nav: PUBLICATIONS
-    title: PUBLICATIONS
+    nav: 精选项目
+    title: 精选项目
     icon: bi-file-text-fill
+  - id: skills
+    nav: 擅长技能
+    title: 擅长技能
+    icon: bi-gear-fill
   - id: awards
-    nav: AWARDS
-    title: AWARDS
+    nav: 技能证书
+    title: 技能证书
     icon: bi-award-fill
+  - id: education
+    nav: 教育背景
+    title: 教育背景
+    icon: bi-mortarboard-fill
+  - id: contact
+    nav: 联系我
+    title: 联系我
+    icon: bi-envelope-fill

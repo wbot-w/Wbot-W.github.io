@@ -1,0 +1,7 @@
+# Keep line endings consistent so the template quality checks stay deterministic.
+*.yml  text eol=lf
+*.md   text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.svg  text eol=lf

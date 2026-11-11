@@ -1,13 +1,6 @@
+<p class="section-eyebrow"><span class="eyebrow-line"></span><span>CERTIFICATES / 证书</span></p>
 
-- Outstanding Graduate Award (CUMT), 2025.
-
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
-
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
-
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
-
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
-
+<div class="certs-grid">
+  <div class="cert-card"><span class="cert-mark" aria-hidden="true">✓</span><div><h3>大学英语四级</h3><p class="cert-en">CET-4</p></div></div>
+  <div class="cert-card"><span class="cert-mark" aria-hidden="true">✓</span><div><h3>全国计算机等级考试一级</h3><p class="cert-en">NCRE-1</p></div></div>
+</div>

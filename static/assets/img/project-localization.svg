@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="充电口形状匹配与九点手眼标定坐标映射示意图">
+  <defs>
+    <pattern id="g3" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="rgba(150,220,255,.09)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="380" fill="#081c21"/>
+  <rect width="600" height="380" fill="url(#g3)"/>
+  <text x="40" y="38" fill="rgba(190,225,235,.6)" font-family="monospace" font-size="10" letter-spacing="1">SHAPE MATCHING / 200+ SAMPLES</text>
+  <g transform="translate(210 190)">
+    <circle r="112" fill="rgba(150,220,255,.035)" stroke="rgba(150,220,255,.18)" stroke-width="1" stroke-dasharray="4 7"/>
+    <circle r="88" fill="none" stroke="#96dcff" stroke-width="2.5"/>
+    <circle r="72" fill="none" stroke="rgba(150,220,255,.45)" stroke-width="1"/>
+    <circle r="44" fill="rgba(150,220,255,.06)" stroke="rgba(150,220,255,.5)" stroke-width="1.5"/>
+    <g fill="#96dcff">
+      <circle cx="-26" cy="-18" r="8"/><circle cx="0" cy="-30" r="8"/><circle cx="26" cy="-18" r="8"/>
+      <circle cx="-26" cy="20" r="6"/><circle cx="26" cy="20" r="6"/><circle cx="0" cy="32" r="6"/>
+    </g>
+    <path d="M0-104v-18M0 104v18M-104 0h-18M104 0h18" stroke="rgba(255,226,170,.8)" stroke-width="1.5"/>
+    <circle r="6" fill="#ffe2aa"/>
+  </g>
+  <rect x="112" y="92" width="196" height="196" fill="none" stroke="#ffe2aa" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="112" y="84" fill="rgba(255,226,170,.9)" font-family="monospace" font-size="10">ROI MATCH 0.94</text>
+  <g transform="translate(400 90)" stroke="rgba(150,220,255,.55)" stroke-width="1.2" fill="none">
+    <rect x="0" y="0" width="150" height="150" stroke-dasharray="3 5"/>
+    <path d="M75 0v150M0 75h150" stroke-dasharray="3 5"/>
+    <g stroke="#96dcff">
+      <path d="M18 68v14M11 75h14M75 68v14M68 75h14M132 68v14M125 75h14M18 128v14M11 135h14M75 128v14M68 135h14M132 128v14M125 135h14M18 8v14M11 15h14M75 8v14M68 15h14M132 8v14M125 15h14"/>
+    </g>
+  </g>
+  <text x="400" y="262" fill="rgba(190,225,235,.65)" font-family="monospace" font-size="10">9-POINT HAND-EYE CALIBRATION</text>
+  <g stroke="#ffe2aa" stroke-width="1.6" fill="none">
+    <path d="M325 300h140m-14-7 14 7-14 7"/>
+  </g>
+  <text x="325" y="290" fill="rgba(255,226,170,.9)" font-family="monospace" font-size="10">PIXEL (u,v) → BASE (x,y,z)</text>
+</svg>

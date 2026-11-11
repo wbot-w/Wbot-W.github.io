@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="工件计数、缺件与放歪判别及视觉引导示意图">
+  <defs>
+    <pattern id="g2" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="rgba(150,220,255,.09)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="380" fill="#081c21"/>
+  <rect width="600" height="380" fill="url(#g2)"/>
+  <rect x="70" y="52" width="460" height="276" fill="none" stroke="rgba(150,220,255,.4)" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="78" y="44" fill="rgba(190,225,235,.6)" font-family="monospace" font-size="10" letter-spacing="1">CAM_01 · FOV 1920×1080</text>
+  <g fill="none" stroke="#96dcff" stroke-width="2">
+    <rect x="110" y="92" width="86" height="70"/><rect x="246" y="92" width="86" height="70"/><rect x="382" y="92" width="86" height="70"/>
+    <rect x="110" y="212" width="86" height="70"/>
+    <rect x="382" y="212" width="86" height="70"/>
+  </g>
+  <g stroke="rgba(150,220,255,.35)" stroke-width="1" fill="none">
+    <path d="M124 106h58v42h-58zM260 106h58v42h-58zM396 106h58v42h-58zM124 226h58v42h-58zM396 226h58v42h-58z" stroke-dasharray="3 4"/>
+  </g>
+  <g transform="rotate(-14 289 247)">
+    <rect x="246" y="212" width="86" height="70" fill="none" stroke="#ffe2aa" stroke-width="2"/>
+    <rect x="260" y="226" width="58" height="42" fill="none" stroke="rgba(255,226,170,.5)" stroke-width="1" stroke-dasharray="3 4"/>
+  </g>
+  <rect x="110" y="212" width="86" height="70" fill="none" stroke="#ff9b9b" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <g fill="rgba(190,225,235,.75)" font-family="monospace" font-size="10">
+    <text x="116" y="86">OK</text><text x="252" y="86">OK</text><text x="388" y="86">OK</text>
+    <text x="112" y="206" fill="#ff9b9b">MISSING</text><text x="250" y="206" fill="#ffe2aa">TILT</text><text x="388" y="206">OK</text>
+  </g>
+  <g stroke="#ffe2aa" stroke-width="1.5" fill="none">
+    <path d="M153 240h-30m30 0v-30m0 30v30m0-30h30"/><circle cx="153" cy="247" r="22"/>
+    <path d="M153 300v28" stroke-dasharray="3 4"/>
+  </g>
+  <text x="112" y="342" fill="rgba(255,226,170,.9)" font-family="monospace" font-size="10">PIXEL → WORLD → ROBOT</text>
+  <g transform="translate(478 92)">
+    <rect x="0" y="0" width="42" height="120" fill="rgba(4,20,26,.65)" stroke="rgba(150,220,255,.25)"/>
+    <text x="8" y="20" fill="rgba(190,225,235,.6)" font-family="monospace" font-size="9">QTY</text>
+    <text x="8" y="42" fill="#96dcff" font-family="monospace" font-size="14">04</text>
+    <text x="8" y="70" fill="#ffe2aa" font-family="monospace" font-size="9">TILT 01</text>
+    <text x="8" y="90" fill="#ff9b9b" font-family="monospace" font-size="9">MISS 01</text>
+    <text x="8" y="110" fill="rgba(190,225,235,.5)" font-family="monospace" font-size="9">HDev</text>
+  </g>
+</svg>

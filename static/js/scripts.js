@@ -3,6 +3,11 @@ const content_dir = 'contents/'
 const config_file = 'config.yml'
 
 const allowedUrlProtocols = ['http:', 'https:', 'mailto:', 'tel:'];
+// 双击本地文件打开时，相对路径的图片 / 链接会解析成 file: 协议，
+// 否则会被 sanitizeMarkdownHtml 误删；线上环境不放宽。
+if (typeof window !== 'undefined' && window.location && window.location.protocol === 'file:') {
+    allowedUrlProtocols.push('file:');
+}
 const configOnlyKeys = ['nav', 'sections', 'backgrounds', 'background-interval-ms', 'background-overlay'];
 
 function stringifyValue(value) {
