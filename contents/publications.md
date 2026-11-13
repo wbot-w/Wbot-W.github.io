@@ -59,18 +59,18 @@
       </details>
     </div>
   </article>
-  <article class="project-card" data-category="motion" data-image-slot="04" aria-label="查看项目：飞特六轴机械臂上位机与视觉抓取平台">
+  <article class="project-card" data-category="motion" data-image-slot="04" aria-label="查看项目：六轴机械臂上位机与视觉抓取">
     <div class="project-visual project-visual--empty"><span class="visual-tag">FIG. 04 / ROBOTICS</span><div class="image-slot"><span class="image-slot-mark" aria-hidden="true">＋</span><span class="image-slot-title">PROJECT IMAGE</span><span class="image-slot-hint">配图待补 · project-04</span></div></div>
     <div class="project-body">
       <div class="project-meta"><span>04 / 运动控制</span><span>2026-03-2026-06</span></div>
-      <h3>飞特六轴机械臂上位机与视觉抓取平台</h3>
-      <p>完成7轴（6关节+夹爪）半双工串口控制上位机，实现位置同步写入、姿态序列保存/回放、实时状态反馈、急停与ID工具，形成可独立使用的机械臂调试控制工具。</p>
+      <h3>六轴机械臂上位机与视觉抓取</h3>
+      <p>完成6轴（6关节+夹爪）半双工串口控制上位机，实现位置同步写入、姿态序列保存/回放、实时状态反馈、急停与ID工具，形成可独立使用的机械臂调试控制工具。</p>
       <div class="tag-row"><span>C# WinForms</span><span>飞特 STS 串口舵机</span><span>URDF</span><span>Python / YOLOv8</span></div>
       <details class="project-detail"><summary>查看完整案例 <span class="detail-arrow" aria-hidden="true">↗</span></summary>
         <div class="detail-body">
           <dl class="detail-meta"><div><dt>年份</dt><dd>2026-03-2026-06</dd></div><div><dt>类别</dt><dd>运动控制 · 视觉抓取</dd></div><div><dt>技术栈</dt><dd>C# WinForms、飞特 STS 串口舵机、URDF、Python / YOLOv8、相机标定</dd></div></dl>
           <h4>核心职责 / 技术实现</h4>
-          <ol class="detail-list"><li>完成7轴（6关节+夹爪）半双工串口控制上位机，实现位置同步写入、姿态序列保存/回放、实时状态反馈、急停与ID工具，形成可独立使用的机械臂调试控制工具。</li><li>基于URDF实现FK/数值IK及直线/圆弧插补、S形平滑与连续轨迹混接，支持笛卡尔空间连续轨迹执行。</li><li>集成YOLOv8视觉服务与相机标定，已跑通“识别—定位—抓取”端到端闭环，形成可复用视觉抓取平台</li></ol>
+          <ol class="detail-list"><li>完成6轴（6关节+夹爪）半双工串口控制上位机，实现位置同步写入、姿态序列保存/回放、实时状态反馈、急停与ID工具，形成可独立使用的机械臂调试控制工具。</li><li>基于URDF实现FK/数值IK及直线/圆弧插补、S形平滑与连续轨迹混接，支持笛卡尔空间连续轨迹执行。</li><li>集成YOLOv8视觉服务与相机标定，已跑通“识别—定位—抓取”端到端闭环，形成可复用视觉抓取平台</li></ol>
           <h4>技术要点</h4>
           <div class="tag-row"><span>C# WinForms</span><span>飞特 STS 串口舵机</span><span>URDF</span><span>FK / 数值IK</span><span>S形平滑</span><span>Python</span><span>YOLOv8</span><span>相机标定</span></div>
         </div>
